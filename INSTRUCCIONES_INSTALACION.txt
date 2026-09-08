@@ -1,0 +1,13 @@
+# PROYECTO NATIVO ANDROID - TUTOR ESCOLAR INTELIGENTE (KIOSK MODE 24H)
+
+Este proyecto contiene la aplicación nativa Android (APK) con soporte para:
+1. Bloqueo Kiosco de Sistema (startLockTask) que inhabilita Home, Recientes y Notificaciones.
+2. Despertador automático cada 24 Horas a las 00:00 hrs (AlarmManager + WakeLock) que enciende la pantalla.
+3. Inicio automático al encender o reiniciar la tablet (BOOT_COMPLETED).
+
+## CÓMO COMPILAR EL APK EN 3 PASOS:
+1. Abre esta carpeta en Android Studio (o ejecuta './gradlew assembleDebug').
+2. Conecta la tablet por cable USB o pasa el archivo 'app-debug.apk' a la tablet.
+3. Instala el APK en la tablet y ábrelo.
+
+¡Listo! La tablet quedará protegida con el modo kiosco escolar de 24 horas.

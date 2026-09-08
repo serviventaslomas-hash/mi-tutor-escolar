@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Tutor Escolar</string>
+    <string name="admin_description">Permite al Tutor Escolar Inteligente bloquear la tablet en modo Kiosco hasta completar las lecciones asignadas cada 24 horas.</string>
+</resources>
